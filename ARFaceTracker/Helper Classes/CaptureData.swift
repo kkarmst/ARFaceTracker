@@ -29,7 +29,7 @@ struct CaptureData {
     var jsonDict: [String : Any] = [
                "facetracking_data" : [
                 "info" : [
-                    "time_collected" : "Today"
+                    "time_collected" : "String(Double(Date().timeIntervalSince1970)"
                 ],
                 "data" : [
                     "frame" : 0,
